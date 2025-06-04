@@ -173,19 +173,15 @@ and displays insights in an interactive Streamlit dashboard for business, produc
 - **Keyword Extraction:**  
     - KeyBERT (using SBERT embeddings)
 
-> **Hybrid Correction**  
-> Ratings and model sentiment are cross-checked to reduce misclassification:
-> $$
-> \text{Expected sentiment} =
-> \begin{cases}
-> \text{positive}, & \text{if rating} \geq 4 \\
-> \text{negative}, & \text{if rating} \leq 2 \\
-> \text{neutral}, & \text{otherwise}
-> \end{cases}
-> $$
-> If a review's predicted sentiment and its rating disagree, the pipeline can optionally override the sentiment using the rating.
+**Hybrid Correction**
 
+| Rating Condition  | Expected Sentiment |
+|-------------------|-------------------|
+| rating >= 4       | positive          |
+| rating <= 2       | negative          |
+| otherwise         | neutral           |
 
+If a review's predicted sentiment and its rating disagree, the pipeline can optionally override the sentiment using the rating.
 
 
 ## Customization
