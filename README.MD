@@ -1,6 +1,10 @@
 #  AI-Powered Feedback Analysis Dashboard
 
 _A comprehensive solution for extracting actionable insights from customer reviews using state-of-the-art NLP techniques._
+---
+📊 Data Source
+[You can reach the data by clicking here](https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products?select=Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products.csv
+)
 
 ---
 
