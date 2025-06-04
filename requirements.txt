@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+transformers
+torch
+streamlit
+bertopic
+openai
+matplotlib
+wordcloud
+python-dotenv
+seaborn
+ipykernel
